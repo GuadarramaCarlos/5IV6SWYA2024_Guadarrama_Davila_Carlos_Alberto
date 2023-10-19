@@ -1,0 +1,38 @@
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+    background-color: #87CEEB; /* color de fondo azul cielo */
+    padding: 20px; /* espacio alrededor del contenido */
+  }
+#all-container{
+  background-image:url(./Jueguito/image/Fondo-Index.jpg) ;
+  margin: 0 auto;
+  max-width: 900;
+  padding: 20px;
+}
+
+  h1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  li {
+    margin-bottom: 1rem;
+    list-style: none; /* quitar los puntos delante de cada elemento de la lista */
+  }
+  
+  a {
+    color: #0077be;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px; /* espacio alrededor del enlace */
+    display: block; /* mostrar los enlaces en un bloque */
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    background-color: #ffffff; /* cambiar el fondo a blanco cuando se pasa el cursor sobre el enlace */
+  }
